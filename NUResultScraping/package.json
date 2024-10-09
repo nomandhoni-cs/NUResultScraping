@@ -4,7 +4,9 @@
     "description": "A web scraping API hosted on Netlify",
     "main": "index.js",
     "scripts": {
-        "start": "node index.js"
+        "start": "node index.js",
+        "build": "netlify build",
+        "dev": "netlify dev"
     },
     "dependencies": {
         "@netlify/functions": "^2.8.2",
