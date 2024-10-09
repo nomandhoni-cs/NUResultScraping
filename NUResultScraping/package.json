@@ -2,9 +2,9 @@
     "name": "netlify-scraping-api",
     "version": "1.0.0",
     "description": "A web scraping API hosted on Netlify",
+    "main": "server.js",
     "scripts": {
-        "build": "netlify build",
-        "dev": "netlify dev"
+        "start": "node server.js"
     },
     "dependencies": {
         "@netlify/functions": "^2.8.2",
