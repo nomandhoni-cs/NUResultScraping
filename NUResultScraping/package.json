@@ -1,1 +1,15 @@
-{ "dependencies": { "axios": "^1.7.7", "cheerio": "^1.0.0", "express": "^4.21.1" } }
+{
+    "name": "netlify-scraping-api",
+    "version": "1.0.0",
+    "description": "A web scraping API hosted on Netlify",
+    "main": "server.js",
+    "scripts": {
+        "build": "netlify build",
+        "dev": "netlify dev"
+    },
+    "dependencies": {
+        "axios": "^1.7.7",
+        "cheerio": "^1.0.0",
+        "express": "^4.21.1"
+    }
+}
